@@ -1,0 +1,655 @@
+@prefix clonidine: <http://neo4j.com/voc/clonidine#> .
+@prefix subs: <http://neo4j.com/voc/substance#> .
+@prefix term: <http://neo4j.com/voc/term#> .
+
+clonidine:Central_alpha-2_Adrenergic_Agonist_EPC a clonidine:EPC ;
+	clonidine:name "Central alpha-2 Adrenergic Agonist [EPC]" ;
+	subs:is_an_attribute_of subs:Clonidine .
+
+subs:Clonidine a clonidine:Drug;
+	clonidine:name "Clonidine" ;
+	clonidine:benefit clonidine:Hypertension_and_Blood_Pressure_Abnormalities ;
+	clonidine:benefit clonidine:Therapy_and_Management ;
+	clonidine:benefit clonidine:Cardiovascular_Disorders ;
+	clonidine:benefit clonidine:Blood_Abnormalities ;
+	clonidine:benefit clonidine:Diabetes_and_Endocrine_Disorders ;
+	clonidine:benefit clonidine:Respiratory_Disorders ;
+	clonidine:benefit clonidine:Arthritis_and_Joint_Disorders ;
+	clonidine:benefit clonidine:Autoimmune_Disorders ;
+	clonidine:benefit clonidine:Gastrointestinal_Disorders ;
+	clonidine:benefit clonidine:Infections ;
+	clonidine:benefit clonidine:Eye_and_Visual_Disorders ;
+	clonidine:benefit clonidine:Neurological_Disorders ;
+	clonidine:benefit clonidine:Skin_Disorders .
+
+clonidine:Hypertension_and_Blood_Pressure_Abnormalities a clonidine:Category ;
+	clonidine:name "Hypertension and Blood Pressure Abnormalities" .
+
+clonidine:Therapy_and_Management a clonidine:Category ;
+	clonidine:name "Therapy and Management" .
+
+clonidine:Cardiovascular_Disorders a clonidine:Category ;
+	clonidine:name "Cardiovascular Disorders" .
+
+clonidine:Blood_Abnormalities a clonidine:Category ;
+	clonidine:name "Blood Abnormalities" .
+
+clonidine:Diabetes_and_Endocrine_Disorders a clonidine:Category ;
+	clonidine:name "Diabetes and Endocrine Disorders" .
+
+clonidine:Respiratory_Disorders a clonidine:Category ;
+	clonidine:name "Respiratory Disorders" .
+
+clonidine:Arthritis_and_Joint_Disorders a clonidine:Category ;
+	clonidine:name "Arthritis and Joint Disorders" .
+
+clonidine:Autoimmune_Disorders a clonidine:Category ;
+	clonidine:name "Autoimmune Disorders" .
+
+clonidine:Gastrointestinal_Disorders a clonidine:Category ;
+	clonidine:name "Gastrointestinal Disorders" .
+
+clonidine:Infections a clonidine:Category ;
+	clonidine:name "Infections" .
+
+clonidine:Eye_and_Visual_Disorders a clonidine:Category ;
+	clonidine:name "Eye and Visual Disorders" .
+
+clonidine:Neurological_Disorders a clonidine:Category ;
+	clonidine:name "Neurological Disorders" .
+
+clonidine:Skin_Disorders a clonidine:Category ;
+	clonidine:name "Skin Disorders" .
+
+term:sleep_disorder a clonidine:DrugIndication ;
+	 term:name "sleep disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:dystonia a clonidine:DrugIndication ;
+	 term:name "dystonia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:labile_blood_pressure a clonidine:DrugIndication ;
+	 term:name "labile blood pressure" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_abnormal a clonidine:DrugIndication ;
+	 term:name "blood pressure abnormal" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:hypertension a clonidine:DrugIndication ;
+	 term:name "hypertension" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:prophylaxis a clonidine:DrugIndication ;
+	 term:name "prophylaxis" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:epilepsy a clonidine:DrugIndication ;
+	 term:name "epilepsy" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:flushing a clonidine:DrugIndication ;
+	 term:name "flushing" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:tourettes_disorder a clonidine:DrugIndication ;
+	 term:name "tourettes disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:drug_use_disorder a clonidine:DrugIndication ;
+	 term:name "drug use disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:anaesthesia a clonidine:DrugIndication ;
+	 term:name "anaesthesia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:psychomotor_hyperactivity a clonidine:DrugIndication ;
+	 term:name "psychomotor hyperactivity" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:posterior_reversible_encephalopathy_syndrome a clonidine:DrugIndication ;
+	 term:name "posterior reversible encephalopathy syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:Generalised_anxiety_disorder a clonidine:DrugIndication ;
+	 term:name "Generalised anxiety disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:alcohol_withdrawal_syndrome a clonidine:DrugIndication ;
+	 term:name "alcohol withdrawal syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:drug_withdrawal_syndrome a clonidine:DrugIndication ;
+	 term:name "drug withdrawal syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:postural_orthostatic_tachycardia_syndrome a clonidine:DrugIndication ;
+	 term:name "postural orthostatic tachycardia syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:somatotropin_stimulation_test a clonidine:DrugIndication ;
+	 term:name "somatotropin stimulation test" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:iron_deficiency a clonidine:DrugIndication ;
+	 term:name "iron deficiency" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:sedation a clonidine:DrugIndication ;
+	 term:name "sedation" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:eczema a clonidine:DrugIndication ;
+	 term:name "eczema" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:tachycardia a clonidine:DrugIndication ;
+	 term:name "tachycardia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:disturbance_attention a clonidine:DrugIndication ;
+	 term:name "disturbance attention" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:withdrawal_syndrome a clonidine:DrugIndication ;
+	 term:name "withdrawal syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:pain_management a clonidine:DrugIndication ;
+	 term:name "pain management" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:proctalgia a clonidine:DrugIndication ;
+	 term:name "proctalgia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:sedative_therapy a clonidine:DrugIndication ;
+	 term:name "sedative therapy" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:behaviour_disorder a clonidine:DrugIndication ;
+	 term:name "behaviour disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:analgesic_therapy a clonidine:DrugIndication ;
+	 term:name "analgesic therapy" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:attention_deficit_hyperactivity_disorder a clonidine:DrugIndication ;
+	 term:name "attention deficit hyperactivity disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:complex_regional_pain_syndrome a clonidine:DrugIndication ;
+	 term:name "complex regional pain syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:pain a clonidine:DrugIndication ;
+	 term:name "pain" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:orthostatic_intolerance a clonidine:DrugIndication ;
+	 term:name "orthostatic intolerance" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_systolic_increased a clonidine:DrugIndication ;
+	 term:name "blood pressure systolic increased" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:paroxysmal_sympathetic_hyperactivity a clonidine:DrugIndication ;
+	 term:name "paroxysmal sympathetic hyperactivity" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:hot_flush a clonidine:DrugIndication ;
+	 term:name "hot flush" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:charge_syndrome a clonidine:DrugIndication ;
+	 term:name "charge syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_measurement a clonidine:DrugIndication ;
+	 term:name "blood pressure measurement" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:anxiety a clonidine:DrugIndication ;
+	 term:name "anxiety" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:induction_anaesthesia a clonidine:DrugIndication ;
+	 term:name "induction anaesthesia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:intellectual_disability a clonidine:DrugIndication ;
+	 term:name "intellectual disability" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:autism_spectrum_disorder a clonidine:DrugIndication ;
+	 term:name "autism spectrum disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:panic_attack a clonidine:DrugIndication ;
+	 term:name "panic attack" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:aggression a clonidine:DrugIndication ;
+	 term:name "aggression" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:agitation a clonidine:DrugIndication ;
+	 term:name "agitation" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:depressive_symptom a clonidine:DrugIndication ;
+	 term:name "depressive symptom" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_management a clonidine:DrugIndication ;
+	 term:name "blood pressure management" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:insomnia a clonidine:DrugIndication ;
+	 term:name "insomnia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:depression a clonidine:DrugIndication ;
+	 term:name "depression" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_systolic a clonidine:DrugIndication ;
+	 term:name "blood pressure systolic" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:pulmonary_arterial_hypertension a clonidine:DrugIndication ;
+	 term:name "pulmonary arterial hypertension" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:nervous_system_disorder a clonidine:DrugIndication ;
+	 term:name "nervous system disorder" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:autonomic_nervous_system_imbalance a clonidine:DrugIndication ;
+	 term:name "autonomic nervous system imbalance" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:surgery a clonidine:DrugIndication ;
+	 term:name "surgery" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:dyskinesia a clonidine:DrugIndication ;
+	 term:name "dyskinesia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:hypertensive_urgency a clonidine:DrugIndication ;
+	 term:name "hypertensive urgency" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:seizure a clonidine:DrugIndication ;
+	 term:name "seizure" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:child_abuse a clonidine:DrugIndication ;
+	 term:name "child abuse" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:pruritus a clonidine:DrugIndication ;
+	 term:name "pruritus" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:cerebellar_ataxia a clonidine:DrugIndication ;
+	 term:name "cerebellar ataxia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:confusional_state a clonidine:DrugIndication ;
+	 term:name "confusional state" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:irritable_bowel_syndrome a clonidine:DrugIndication ;
+	 term:name "irritable bowel syndrome" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:blood_pressure_increased a clonidine:DrugIndication ;
+	 term:name "blood pressure increased" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:covid19_pneumonia a clonidine:DrugIndication ;
+	 term:name "covid19 pneumonia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:migraine a clonidine:DrugIndication ;
+	 term:name "migraine" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:drug_dependence a clonidine:DrugIndication ;
+	 term:name "drug dependence" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:tic a clonidine:DrugIndication ;
+	 term:name "tic" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:neck_pain a clonidine:DrugIndication ;
+	 term:name "neck pain" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:back_pain a clonidine:DrugIndication ;
+	 term:name "back pain" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:musculoskeletal_chest_pain a clonidine:DrugIndication ;
+	 term:name "musculoskeletal chest pain" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:erythromelalgia a clonidine:DrugIndication ;
+	 term:name "erythromelalgia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:dementia a clonidine:DrugIndication ;
+	 term:name "dementia" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:evidence_based_treatment a clonidine:DrugIndication ;
+	 term:name "evidence based treatment" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:cancer_pain a clonidine:DrugIndication ;
+	 term:name "cancer pain" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:heart_rate_increased a clonidine:DrugIndication ;
+	 term:name "heart rate increased" ;
+	 term:belonds_to_category clonidine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:sleep_disorder a clonidine:DrugIndication ;
+	 term:name "sleep disorder" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:anaesthesia a clonidine:DrugIndication ;
+	 term:name "anaesthesia" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:sedation a clonidine:DrugIndication ;
+	 term:name "sedation" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:pain_management a clonidine:DrugIndication ;
+	 term:name "pain management" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:sedative_therapy a clonidine:DrugIndication ;
+	 term:name "sedative therapy" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:behaviour_disorder a clonidine:DrugIndication ;
+	 term:name "behaviour disorder" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:analgesic_therapy a clonidine:DrugIndication ;
+	 term:name "analgesic therapy" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:pain a clonidine:DrugIndication ;
+	 term:name "pain" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:induction_anaesthesia a clonidine:DrugIndication ;
+	 term:name "induction anaesthesia" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:surgery a clonidine:DrugIndication ;
+	 term:name "surgery" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:anxiety a clonidine:DrugIndication ;
+	 term:name "anxiety" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:depression a clonidine:DrugIndication ;
+	 term:name "depression" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:drug_dependence a clonidine:DrugIndication ;
+	 term:name "drug dependence" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:evidence_based_treatment a clonidine:DrugIndication ;
+	 term:name "evidence based treatment" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:cancer_pain a clonidine:DrugIndication ;
+	 term:name "cancer pain" ;
+	 term:belonds_to_category clonidine:Therapy_and_Management .
+
+term:labile_blood_pressure a clonidine:DrugIndication ;
+	 term:name "labile blood pressure" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:blood_pressure_abnormal a clonidine:DrugIndication ;
+	 term:name "blood pressure abnormal" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:hypertension a clonidine:DrugIndication ;
+	 term:name "hypertension" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:epilepsy a clonidine:DrugIndication ;
+	 term:name "epilepsy" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:flushing a clonidine:DrugIndication ;
+	 term:name "flushing" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:tachycardia a clonidine:DrugIndication ;
+	 term:name "tachycardia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:withdrawal_syndrome a clonidine:DrugIndication ;
+	 term:name "withdrawal syndrome" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:proctalgia a clonidine:DrugIndication ;
+	 term:name "proctalgia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:hot_flush a clonidine:DrugIndication ;
+	 term:name "hot flush" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:charge_syndrome a clonidine:DrugIndication ;
+	 term:name "charge syndrome" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:blood_pressure_measurement a clonidine:DrugIndication ;
+	 term:name "blood pressure measurement" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:anxiety a clonidine:DrugIndication ;
+	 term:name "anxiety" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:intellectual_disability a clonidine:DrugIndication ;
+	 term:name "intellectual disability" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:autism_spectrum_disorder a clonidine:DrugIndication ;
+	 term:name "autism spectrum disorder" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:panic_attack a clonidine:DrugIndication ;
+	 term:name "panic attack" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:aggression a clonidine:DrugIndication ;
+	 term:name "aggression" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:agitation a clonidine:DrugIndication ;
+	 term:name "agitation" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:depressive_symptom a clonidine:DrugIndication ;
+	 term:name "depressive symptom" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:blood_pressure_management a clonidine:DrugIndication ;
+	 term:name "blood pressure management" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:pulmonary_arterial_hypertension a clonidine:DrugIndication ;
+	 term:name "pulmonary arterial hypertension" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:nervous_system_disorder a clonidine:DrugIndication ;
+	 term:name "nervous system disorder" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:autonomic_nervous_system_imbalance a clonidine:DrugIndication ;
+	 term:name "autonomic nervous system imbalance" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:seizure a clonidine:DrugIndication ;
+	 term:name "seizure" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:cerebellar_ataxia a clonidine:DrugIndication ;
+	 term:name "cerebellar ataxia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:confusional_state a clonidine:DrugIndication ;
+	 term:name "confusional state" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:irritable_bowel_syndrome a clonidine:DrugIndication ;
+	 term:name "irritable bowel syndrome" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:blood_pressure_increased a clonidine:DrugIndication ;
+	 term:name "blood pressure increased" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:covid19_pneumonia a clonidine:DrugIndication ;
+	 term:name "covid19 pneumonia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:migraine a clonidine:DrugIndication ;
+	 term:name "migraine" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:tic a clonidine:DrugIndication ;
+	 term:name "tic" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:neck_pain a clonidine:DrugIndication ;
+	 term:name "neck pain" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:back_pain a clonidine:DrugIndication ;
+	 term:name "back pain" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:musculoskeletal_chest_pain a clonidine:DrugIndication ;
+	 term:name "musculoskeletal chest pain" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:erythromelalgia a clonidine:DrugIndication ;
+	 term:name "erythromelalgia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:dementia a clonidine:DrugIndication ;
+	 term:name "dementia" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:heart_rate_increased a clonidine:DrugIndication ;
+	 term:name "heart rate increased" ;
+	 term:belonds_to_category clonidine:Cardiovascular_Disorders .
+
+term:iron_deficiency a clonidine:DrugIndication ;
+	 term:name "iron deficiency" ;
+	 term:belonds_to_category clonidine:Blood_Abnormalities .
+
+term:somatotropin_stimulation_test a clonidine:DrugIndication ;
+	 term:name "somatotropin stimulation test" ;
+	 term:belonds_to_category clonidine:Diabetes_and_Endocrine_Disorders .
+
+term:covid19_pneumonia a clonidine:DrugIndication ;
+	 term:name "covid19 pneumonia" ;
+	 term:belonds_to_category clonidine:Respiratory_Disorders .
+
+term:neck_pain a clonidine:DrugIndication ;
+	 term:name "neck pain" ;
+	 term:belonds_to_category clonidine:Arthritis_and_Joint_Disorders .
+
+term:back_pain a clonidine:DrugIndication ;
+	 term:name "back pain" ;
+	 term:belonds_to_category clonidine:Arthritis_and_Joint_Disorders .
+
+term:musculoskeletal_chest_pain a clonidine:DrugIndication ;
+	 term:name "musculoskeletal chest pain" ;
+	 term:belonds_to_category clonidine:Arthritis_and_Joint_Disorders .
+
+term: a clonidine:DrugIndication ;
+	 term:name "" ;
+	 term:belonds_to_category clonidine:Autoimmune_Disorders .
+
+term:irritable_bowel_syndrome a clonidine:DrugIndication ;
+	 term:name "irritable bowel syndrome" ;
+	 term:belonds_to_category clonidine:Gastrointestinal_Disorders .
+
+term:covid19_pneumonia a clonidine:DrugIndication ;
+	 term:name "covid19 pneumonia" ;
+	 term:belonds_to_category clonidine:Infections .
+
+term: a clonidine:DrugIndication ;
+	 term:name "" ;
+	 term:belonds_to_category clonidine:Eye_and_Visual_Disorders .
+
+term:epilepsy a clonidine:DrugIndication ;
+	 term:name "epilepsy" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:tourettes_disorder a clonidine:DrugIndication ;
+	 term:name "tourettes disorder" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:psychomotor_hyperactivity a clonidine:DrugIndication ;
+	 term:name "psychomotor hyperactivity" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:posterior_reversible_encephalopathy_syndrome a clonidine:DrugIndication ;
+	 term:name "posterior reversible encephalopathy syndrome" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:Generalised_anxiety_disorder a clonidine:DrugIndication ;
+	 term:name "Generalised anxiety disorder" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:attention_deficit_hyperactivity_disorder a clonidine:DrugIndication ;
+	 term:name "attention deficit hyperactivity disorder" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:nervous_system_disorder a clonidine:DrugIndication ;
+	 term:name "nervous system disorder" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:cerebellar_ataxia a clonidine:DrugIndication ;
+	 term:name "cerebellar ataxia" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:confusional_state a clonidine:DrugIndication ;
+	 term:name "confusional state" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:dementia a clonidine:DrugIndication ;
+	 term:name "dementia" ;
+	 term:belonds_to_category clonidine:Neurological_Disorders .
+
+term:eczema a clonidine:DrugIndication ;
+	 term:name "eczema" ;
+	 term:belonds_to_category clonidine:Skin_Disorders .
+
+term:pruritus a clonidine:DrugIndication ;
+	 term:name "pruritus" ;
+	 term:belonds_to_category clonidine:Skin_Disorders .
+

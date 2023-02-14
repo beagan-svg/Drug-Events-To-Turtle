@@ -1,0 +1,34 @@
+@prefix ursodiol: <http://neo4j.com/voc/ursodiol#> .
+@prefix subs: <http://neo4j.com/voc/substance#> .
+@prefix term: <http://neo4j.com/voc/term#> .
+
+subs:Ursodiol a ursodiol:Drug; 
+	ursodiol:name "Ursodiol" ;
+	ursodiol:benefit ursodiol:Therapy_and_Management ;
+	ursodiol:benefit ursodiol:Hypertension_and_Blood_Pressure_Abnormalities ;
+	ursodiol:benefit ursodiol:Cardiovascular_Disorders ;
+	ursodiol:benefit ursodiol:Blood_Abnormalities.
+
+ursodiol:Therapy_and_Management a ursodiol:Category ;
+	ursodiol:name "Therapy and Management" ;
+	term:has_term term:Therapy ;
+	term:has_term term:Management .
+
+ursodiol:Hypertension_and_Blood_Pressure_Abnormalities a ursodiol:Category ;
+	ursodiol:name "Hypertension and Blood Pressure Abnormalities" .
+
+ursodiol:Cardiovascular_Disorders a ursodiol:Category ;
+	ursodiol:name "Cardiovascular Disorders" .
+
+ursodiol:Blood_Abnormalities a ursodiol:Category ;
+	ursodiol:name "Blood Abnormalities" .
+
+term:Therapy a ursodiol:DrugIndication ;
+	term:name "Therapy" .
+
+term:Management a ursodiol:DrugIndication ;
+	term:name "Management" .
+
+ursodiol:Provitamin_D2_Compound a ursodiol:EPC ;
+        ursodiol:name "Provitamin D2 Compound" ;
+        subs:is_an_attribute_of subs:Ursodiol .

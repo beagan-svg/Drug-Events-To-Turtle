@@ -1,0 +1,331 @@
+@prefix epinephrine: <http://neo4j.com/voc/epinephrine#> .
+@prefix subs: <http://neo4j.com/voc/substance#> .
+@prefix term: <http://neo4j.com/voc/term#> .
+
+epinephrine:alpha-Adrenergic_AgonistEPC a epinephrine:EPC ;
+	epinephrine:name "alpha-Adrenergic Agonist[EPC]" ;
+	subs:is_an_attribute_of subs:Epinephrine .
+
+epinephrine:beta-Adrenergic_AgonistEPC a epinephrine:EPC ;
+	epinephrine:name "beta-Adrenergic Agonist[EPC]" ;
+	subs:is_an_attribute_of subs:Epinephrine .
+
+epinephrine:CatecholamineEPC a epinephrine:EPC ;
+	epinephrine:name "Catecholamine[EPC]" ;
+	subs:is_an_attribute_of subs:Epinephrine .
+
+subs:Epinephrine a epinephrine:Drug;
+	epinephrine:name "Epinephrine" ;
+	epinephrine:benefit epinephrine:Hypersensitivity ;
+	epinephrine:benefit epinephrine:Anaphylaxis ;
+	epinephrine:benefit epinephrine:Shock ;
+	epinephrine:benefit epinephrine:Cardiac_Conditions ;
+	epinephrine:benefit epinephrine:Resuscitation ;
+	epinephrine:benefit epinephrine:Respiratory_Conditions ;
+	epinephrine:benefit epinephrine:Skin_Conditions ;
+	epinephrine:benefit epinephrine:Gastrointestinal_Conditions ;
+	epinephrine:benefit epinephrine:Neurological_Conditions ;
+	epinephrine:benefit epinephrine:Cardiovascular_Conditions ;
+	epinephrine:benefit epinephrine:Metabolic_Conditions ;
+	epinephrine:benefit epinephrine:Urinary_Conditions ;
+	epinephrine:benefit epinephrine:Immunological_Conditions .
+
+epinephrine:Hypersensitivity a epinephrine:Category ;
+	epinephrine:name "Hypersensitivity" .
+
+epinephrine:Anaphylaxis a epinephrine:Category ;
+	epinephrine:name "Anaphylaxis" .
+
+epinephrine:Shock a epinephrine:Category ;
+	epinephrine:name "Shock" .
+
+epinephrine:Cardiac_Conditions a epinephrine:Category ;
+	epinephrine:name "Cardiac Conditions" .
+
+epinephrine:Resuscitation a epinephrine:Category ;
+	epinephrine:name "Resuscitation" .
+
+epinephrine:Respiratory_Conditions a epinephrine:Category ;
+	epinephrine:name "Respiratory Conditions" .
+
+epinephrine:Skin_Conditions a epinephrine:Category ;
+	epinephrine:name "Skin Conditions" .
+
+epinephrine:Gastrointestinal_Conditions a epinephrine:Category ;
+	epinephrine:name "Gastrointestinal Conditions" .
+
+epinephrine:Neurological_Conditions a epinephrine:Category ;
+	epinephrine:name "Neurological Conditions" .
+
+epinephrine:Cardiovascular_Conditions a epinephrine:Category ;
+	epinephrine:name "Cardiovascular Conditions" .
+
+epinephrine:Metabolic_Conditions a epinephrine:Category ;
+	epinephrine:name "Metabolic Conditions" .
+
+epinephrine:Urinary_Conditions a epinephrine:Category ;
+	epinephrine:name "Urinary Conditions" .
+
+epinephrine:Immunological_Conditions a epinephrine:Category ;
+	epinephrine:name "Immunological Conditions" .
+
+term:Hypersensitivity a epinephrine:DrugIndication ;
+	 term:name "Hypersensitivity" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Drug_Hypersensitivity a epinephrine:DrugIndication ;
+	 term:name "Drug Hypersensitivity" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Food_Allergy a epinephrine:DrugIndication ;
+	 term:name "Food Allergy" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Rubber_Sensitivity a epinephrine:DrugIndication ;
+	 term:name "Rubber Sensitivity" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Milk_Allergy a epinephrine:DrugIndication ;
+	 term:name "Milk Allergy" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Seasonal_Allergy a epinephrine:DrugIndication ;
+	 term:name "Seasonal Allergy" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Idiopathic_Urticaria a epinephrine:DrugIndication ;
+	 term:name "Idiopathic Urticaria" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Allergy_Arthropod_Sting a epinephrine:DrugIndication ;
+	 term:name "Allergy Arthropod Sting" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Adverse_Drug_Reaction a epinephrine:DrugIndication ;
+	 term:name "Adverse Drug Reaction" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Antiallergic_Therapy a epinephrine:DrugIndication ;
+	 term:name "Antiallergic Therapy" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Product_Use_Unapproved_Indication a epinephrine:DrugIndication ;
+	 term:name "Product Use Unapproved Indication" ;
+	 term:belonds_to_category epinephrine:Hypersensitivity .
+
+term:Anaphylactic_Reaction a epinephrine:DrugIndication ;
+	 term:name "Anaphylactic Reaction" ;
+	 term:belonds_to_category epinephrine:Anaphylaxis .
+
+term:Anaphylactic_Shock a epinephrine:DrugIndication ;
+	 term:name "Anaphylactic Shock" ;
+	 term:belonds_to_category epinephrine:Anaphylaxis .
+
+term:Anaphylaxis_Treatment a epinephrine:DrugIndication ;
+	 term:name "Anaphylaxis Treatment" ;
+	 term:belonds_to_category epinephrine:Anaphylaxis .
+
+term:Anaphylaxis_Prophylaxis a epinephrine:DrugIndication ;
+	 term:name "Anaphylaxis Prophylaxis" ;
+	 term:belonds_to_category epinephrine:Anaphylaxis .
+
+term:Shock a epinephrine:DrugIndication ;
+	 term:name "Shock" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Cardiogenic_Shock a epinephrine:DrugIndication ;
+	 term:name "Cardiogenic Shock" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Haemodynamic_Instability a epinephrine:DrugIndication ;
+	 term:name "Haemodynamic Instability" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Distributive_Shock a epinephrine:DrugIndication ;
+	 term:name "Distributive Shock" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Circulatory_Collapse a epinephrine:DrugIndication ;
+	 term:name "Circulatory Collapse" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Anaphylactic_Shock a epinephrine:DrugIndication ;
+	 term:name "Anaphylactic Shock" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Respiratory_Failure a epinephrine:DrugIndication ;
+	 term:name "Respiratory Failure" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Bradycardia a epinephrine:DrugIndication ;
+	 term:name "Bradycardia" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Cardiac_Arrest a epinephrine:DrugIndication ;
+	 term:name "Cardiac Arrest" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Vasoplegia_Syndrome a epinephrine:DrugIndication ;
+	 term:name "Vasoplegia Syndrome" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Pulseless_Electrical_Activity a epinephrine:DrugIndication ;
+	 term:name "Pulseless Electrical Activity" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Circulatory_Collapse a epinephrine:DrugIndication ;
+	 term:name "Circulatory Collapse" ;
+	 term:belonds_to_category epinephrine:Shock .
+
+term:Cardiac_Dysfunction a epinephrine:DrugIndication ;
+	 term:name "Cardiac Dysfunction" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Cardiotoxicity a epinephrine:DrugIndication ;
+	 term:name "Cardiotoxicity" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Ventricular_Fibrillation a epinephrine:DrugIndication ;
+	 term:name "Ventricular Fibrillation" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Heart_Rate_Abnormal a epinephrine:DrugIndication ;
+	 term:name "Heart Rate Abnormal" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Ventricular_Dysfunction a epinephrine:DrugIndication ;
+	 term:name "Ventricular Dysfunction" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Cardiac_Failure_Acute a epinephrine:DrugIndication ;
+	 term:name "Cardiac Failure Acute" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Positive_Cardiac_Inotropic_Effect a epinephrine:DrugIndication ;
+	 term:name "Positive Cardiac Inotropic Effect" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Ventricricular_Tachycardia a epinephrine:DrugIndication ;
+	 term:name "Ventricricular Tachycardia" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Bradycardia a epinephrine:DrugIndication ;
+	 term:name "Bradycardia" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Bradycardia_Neonatal a epinephrine:DrugIndication ;
+	 term:name "Bradycardia Neonatal" ;
+	 term:belonds_to_category epinephrine:Cardiac_Conditions .
+
+term:Resuscitation a epinephrine:DrugIndication ;
+	 term:name "Resuscitation" ;
+	 term:belonds_to_category epinephrine:Resuscitation .
+
+term:Life_Support a epinephrine:DrugIndication ;
+	 term:name "Life Support" ;
+	 term:belonds_to_category epinephrine:Resuscitation .
+
+term:Haemoptysis a epinephrine:DrugIndication ;
+	 term:name "Haemoptysis" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Bronchial_Haemorrhage a epinephrine:DrugIndication ;
+	 term:name "Bronchial Haemorrhage" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Acute_Respiratory_Distress_Syndrome a epinephrine:DrugIndication ;
+	 term:name "Acute Respiratory Distress Syndrome" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Respiratory_Failure a epinephrine:DrugIndication ;
+	 term:name "Respiratory Failure" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Pneumonia a epinephrine:DrugIndication ;
+	 term:name "Pneumonia" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Asthma a epinephrine:DrugIndication ;
+	 term:name "Asthma" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Asthma-Chronic_Obstructive_Pulmonary_Disease_Overlap_Syndrome a epinephrine:DrugIndication ;
+	 term:name "Asthma-Chronic Obstructive Pulmonary Disease Overlap Syndrome" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Strider a epinephrine:DrugIndication ;
+	 term:name "Strider" ;
+	 term:belonds_to_category epinephrine:Respiratory_Conditions .
+
+term:Urticaria a epinephrine:DrugIndication ;
+	 term:name "Urticaria" ;
+	 term:belonds_to_category epinephrine:Skin_Conditions .
+
+term:Angioedema a epinephrine:DrugIndication ;
+	 term:name "Angioedema" ;
+	 term:belonds_to_category epinephrine:Skin_Conditions .
+
+term:Erythema a epinephrine:DrugIndication ;
+	 term:name "Erythema" ;
+	 term:belonds_to_category epinephrine:Skin_Conditions .
+
+term:Infiltration_Anaesthesia a epinephrine:DrugIndication ;
+	 term:name "Infiltration Anaesthesia" ;
+	 term:belonds_to_category epinephrine:Skin_Conditions .
+
+term:Gastrointestinal_Haemorrhage a epinephrine:DrugIndication ;
+	 term:name "Gastrointestinal Haemorrhage" ;
+	 term:belonds_to_category epinephrine:Gastrointestinal_Conditions .
+
+term:Upper_Gastrointestinal_Haemorrhage a epinephrine:DrugIndication ;
+	 term:name "Upper Gastrointestinal Haemorrhage" ;
+	 term:belonds_to_category epinephrine:Gastrointestinal_Conditions .
+
+term:Duodenal_Ulcer_Haemorrhage a epinephrine:DrugIndication ;
+	 term:name "Duodenal Ulcer Haemorrhage" ;
+	 term:belonds_to_category epinephrine:Gastrointestinal_Conditions .
+
+term:Pain a epinephrine:DrugIndication ;
+	 term:name "Pain" ;
+	 term:belonds_to_category epinephrine:Neurological_Conditions .
+
+term:Laryngospasm a epinephrine:DrugIndication ;
+	 term:name "Laryngospasm" ;
+	 term:belonds_to_category epinephrine:Neurological_Conditions .
+
+term:Cardiovascular_Disorder a epinephrine:DrugIndication ;
+	 term:name "Cardiovascular Disorder" ;
+	 term:belonds_to_category epinephrine:Cardiovascular_Conditions .
+
+term:Haemostasis a epinephrine:DrugIndication ;
+	 term:name "Haemostasis" ;
+	 term:belonds_to_category epinephrine:Cardiovascular_Conditions .
+
+term:Postoperative_Analgesia a epinephrine:DrugIndication ;
+	 term:name "Postoperative Analgesia" ;
+	 term:belonds_to_category epinephrine:Cardiovascular_Conditions .
+
+term:Diabetic_Ketoacidosis a epinephrine:DrugIndication ;
+	 term:name "Diabetic Ketoacidosis" ;
+	 term:belonds_to_category epinephrine:Metabolic_Conditions .
+
+term:Blood_Cholesterol a epinephrine:DrugIndication ;
+	 term:name "Blood Cholesterol" ;
+	 term:belonds_to_category epinephrine:Metabolic_Conditions .
+
+term:Acute_Kidney_Injury a epinephrine:DrugIndication ;
+	 term:name "Acute Kidney Injury" ;
+	 term:belonds_to_category epinephrine:Urinary_Conditions .
+
+term:Microscopic_Polyangiitis a epinephrine:DrugIndication ;
+	 term:name "Microscopic Polyangiitis" ;
+	 term:belonds_to_category epinephrine:Immunological_Conditions .
+
+term:Systemic_Mastocytosis a epinephrine:DrugIndication ;
+	 term:name "Systemic Mastocytosis" ;
+	 term:belonds_to_category epinephrine:Immunological_Conditions .
+
+term:Immunodeficiency a epinephrine:DrugIndication ;
+	 term:name "Immunodeficiency" ;
+	 term:belonds_to_category epinephrine:Immunological_Conditions .
+

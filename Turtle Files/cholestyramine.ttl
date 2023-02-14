@@ -1,0 +1,251 @@
+@prefix cholestyramine: <http://neo4j.com/voc/cholestyramine#> .
+@prefix subs: <http://neo4j.com/voc/substance#> .
+@prefix term: <http://neo4j.com/voc/term#> .
+
+cholestyramine:Bile_Acid_SequestrantEPC a cholestyramine:EPC ;
+	cholestyramine:name "Bile Acid Sequestrant[EPC]" ;
+	subs:is_an_attribute_of subs:Cholestyramine .
+
+subs:Cholestyramine a cholestyramine:Drug;
+	cholestyramine:name "Cholestyramine" ;
+	cholestyramine:benefit cholestyramine:Therapy_and_Management ;
+	cholestyramine:benefit cholestyramine:Hypertension_and_Blood_Pressure_Abnormalities ;
+	cholestyramine:benefit cholestyramine:Cardiovascular_Disorders ;
+	cholestyramine:benefit cholestyramine:Blood_Abnormalities ;
+	cholestyramine:benefit cholestyramine:Diabetes_and_Endocrine_Disorders ;
+	cholestyramine:benefit cholestyramine:Respiratory_Disorders ;
+	cholestyramine:benefit cholestyramine:Autoimmune_Disorders ;
+	cholestyramine:benefit cholestyramine:Gastrointestinal_Disorders ;
+	cholestyramine:benefit cholestyramine:Infections ;
+	cholestyramine:benefit cholestyramine:Neurological_Disorders ;
+	cholestyramine:benefit cholestyramine:Cancer ;
+	cholestyramine:benefit cholestyramine:Renal_Disorders ;
+	cholestyramine:benefit cholestyramine:Pain_and_Discomfort ;
+	cholestyramine:benefit cholestyramine:Immune_System_Disorders ;
+	cholestyramine:benefit cholestyramine:Vitamin_and_Nutritional_Disorders ;
+	cholestyramine:benefit cholestyramine:Blood_Cholesterol_and_Lipid_Disorders ;
+	cholestyramine:benefit cholestyramine:Adverse_Reactions_to_Drugs ;
+	cholestyramine:benefit cholestyramine:Miscellaneous_Disorders ;
+	cholestyramine:benefit cholestyramine:Pregnancy_and_Reproductive_Disorders .
+
+cholestyramine:Therapy_and_Management a cholestyramine:Category ;
+	cholestyramine:name "Therapy and Management" .
+
+cholestyramine:Hypertension_and_Blood_Pressure_Abnormalities a cholestyramine:Category ;
+	cholestyramine:name "Hypertension and Blood Pressure Abnormalities" .
+
+cholestyramine:Cardiovascular_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Cardiovascular Disorders" .
+
+cholestyramine:Blood_Abnormalities a cholestyramine:Category ;
+	cholestyramine:name "Blood Abnormalities" .
+
+cholestyramine:Diabetes_and_Endocrine_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Diabetes and Endocrine Disorders" .
+
+cholestyramine:Respiratory_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Respiratory Disorders" .
+
+cholestyramine:Autoimmune_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Autoimmune Disorders" .
+
+cholestyramine:Gastrointestinal_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Gastrointestinal Disorders" .
+
+cholestyramine:Infections a cholestyramine:Category ;
+	cholestyramine:name "Infections" .
+
+cholestyramine:Neurological_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Neurological Disorders" .
+
+cholestyramine:Cancer a cholestyramine:Category ;
+	cholestyramine:name "Cancer" .
+
+cholestyramine:Renal_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Renal Disorders" .
+
+cholestyramine:Pain_and_Discomfort a cholestyramine:Category ;
+	cholestyramine:name "Pain and Discomfort" .
+
+cholestyramine:Immune_System_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Immune System Disorders" .
+
+cholestyramine:Vitamin_and_Nutritional_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Vitamin and Nutritional Disorders" .
+
+cholestyramine:Blood_Cholesterol_and_Lipid_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Blood Cholesterol and Lipid Disorders" .
+
+cholestyramine:Adverse_Reactions_to_Drugs a cholestyramine:Category ;
+	cholestyramine:name "Adverse Reactions to Drugs" .
+
+cholestyramine:Miscellaneous_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Miscellaneous Disorders" .
+
+cholestyramine:Pregnancy_and_Reproductive_Disorders a cholestyramine:Category ;
+	cholestyramine:name "Pregnancy and Reproductive Disorders" .
+
+term:Colectomy a cholestyramine:DrugIndication ;
+	 term:name "Colectomy" ;
+	 term:belonds_to_category cholestyramine:Therapy_and_Management .
+
+term:Small_Intestinal_Resection a cholestyramine:DrugIndication ;
+	 term:name "Small Intestinal Resection" ;
+	 term:belonds_to_category cholestyramine:Therapy_and_Management .
+
+term:Therapeutic_Procedure a cholestyramine:DrugIndication ;
+	 term:name "Therapeutic Procedure" ;
+	 term:belonds_to_category cholestyramine:Therapy_and_Management .
+
+term:Drug_Therapy a cholestyramine:DrugIndication ;
+	 term:name "Drug Therapy" ;
+	 term:belonds_to_category cholestyramine:Therapy_and_Management .
+
+term:Surgery a cholestyramine:DrugIndication ;
+	 term:name "Surgery" ;
+	 term:belonds_to_category cholestyramine:Therapy_and_Management .
+
+term:Hypertension a cholestyramine:DrugIndication ;
+	 term:name "Hypertension" ;
+	 term:belonds_to_category cholestyramine:Hypertension_and_Blood_Pressure_Abnormalities .
+
+term:Multiple_Sclerosis a cholestyramine:DrugIndication ;
+	 term:name "Multiple Sclerosis" ;
+	 term:belonds_to_category cholestyramine:Cardiovascular_Disorders .
+
+term:Blood_Cholesterol_Increased a cholestyramine:DrugIndication ;
+	 term:name "Blood Cholesterol Increased" ;
+	 term:belonds_to_category cholestyramine:Blood_Abnormalities .
+
+term:Blood_Cholesterol a cholestyramine:DrugIndication ;
+	 term:name "Blood Cholesterol" ;
+	 term:belonds_to_category cholestyramine:Blood_Abnormalities .
+
+term:Blood_Cholesterol_Decreased a cholestyramine:DrugIndication ;
+	 term:name "Blood Cholesterol Decreased" ;
+	 term:belonds_to_category cholestyramine:Blood_Abnormalities .
+
+term:Bile_Output a cholestyramine:DrugIndication ;
+	 term:name "Bile Output" ;
+	 term:belonds_to_category cholestyramine:Blood_Abnormalities .
+
+term:Hyperthyroidism a cholestyramine:DrugIndication ;
+	 term:name "Hyperthyroidism" ;
+	 term:belonds_to_category cholestyramine:Diabetes_and_Endocrine_Disorders .
+
+term:Basedows_Disease a cholestyramine:DrugIndication ;
+	 term:name "Basedows Disease" ;
+	 term:belonds_to_category cholestyramine:Diabetes_and_Endocrine_Disorders .
+
+term:Thyroid_Hormones_Increased a cholestyramine:DrugIndication ;
+	 term:name "Thyroid Hormones Increased" ;
+	 term:belonds_to_category cholestyramine:Diabetes_and_Endocrine_Disorders .
+
+term:Thyrotoxic_Crisis a cholestyramine:DrugIndication ;
+	 term:name "Thyrotoxic Crisis" ;
+	 term:belonds_to_category cholestyramine:Diabetes_and_Endocrine_Disorders .
+
+term:Exposure_Fungus a cholestyramine:DrugIndication ;
+	 term:name "Exposure Fungus" ;
+	 term:belonds_to_category cholestyramine:Respiratory_Disorders .
+
+term:Crohns_Disease a cholestyramine:DrugIndication ;
+	 term:name "Crohns Disease" ;
+	 term:belonds_to_category cholestyramine:Autoimmune_Disorders .
+
+term:Chronic_Inflammatory_Response_Syndrome a cholestyramine:DrugIndication ;
+	 term:name "Chronic Inflammatory Response Syndrome" ;
+	 term:belonds_to_category cholestyramine:Autoimmune_Disorders .
+
+term:Diarrhoea a cholestyramine:DrugIndication ;
+	 term:name "Diarrhoea" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Irritable_Bowel_Syndrome a cholestyramine:DrugIndication ;
+	 term:name "Irritable Bowel Syndrome" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Abnormal_Faeces a cholestyramine:DrugIndication ;
+	 term:name "Abnormal Faeces" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Bile_Duct_Stone a cholestyramine:DrugIndication ;
+	 term:name "Bile Duct Stone" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Inborn_Error_Primary_Bile_Acid_Synthesis a cholestyramine:DrugIndication ;
+	 term:name "Inborn Error Primary Bile Acid Synthesis" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Bile_Acid_Malabsorption a cholestyramine:DrugIndication ;
+	 term:name "Bile Acid Malabsorption" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Gastrointestinal_Disorder a cholestyramine:DrugIndication ;
+	 term:name "Gastrointestinal Disorder" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Dyspepsia a cholestyramine:DrugIndication ;
+	 term:name "Dyspepsia" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Bowel_Movement_Irregularity a cholestyramine:DrugIndication ;
+	 term:name "Bowel Movement Irregularity" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Nausea a cholestyramine:DrugIndication ;
+	 term:name "Nausea" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Faecaloma a cholestyramine:DrugIndication ;
+	 term:name "Faecaloma" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Gastric_Disorder a cholestyramine:DrugIndication ;
+	 term:name "Gastric Disorder" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Constipation_Prophylaxis a cholestyramine:DrugIndication ;
+	 term:name "Constipation Prophylaxis" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Gastric_Infection a cholestyramine:DrugIndication ;
+	 term:name "Gastric Infection" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Congenital_Absence_Bile_Ducts a cholestyramine:DrugIndication ;
+	 term:name "Congenital Absence Bile Ducts" ;
+	 term:belonds_to_category cholestyramine:Gastrointestinal_Disorders .
+
+term:Pruritus a cholestyramine:DrugIndication ;
+	 term:name "Pruritus" ;
+	 term:belonds_to_category cholestyramine:Pain_and_Discomfort .
+
+term:Adverse_Drug_Reaction a cholestyramine:DrugIndication ;
+	 term:name "Adverse Drug Reaction" ;
+	 term:belonds_to_category cholestyramine:Adverse_Reactions_to_Drugs .
+
+term:Teratogenicity a cholestyramine:DrugIndication ;
+	 term:name "Teratogenicity" ;
+	 term:belonds_to_category cholestyramine:Miscellaneous_Disorders .
+
+term:Low_Density_Lipoprotein_Increased a cholestyramine:DrugIndication ;
+	 term:name "Low Density Lipoprotein Increased" ;
+	 term:belonds_to_category cholestyramine:Blood_Cholesterol_and_Lipid_Disorders .
+
+term:Low_Density_Lipoprotein_Abnormal a cholestyramine:DrugIndication ;
+	 term:name "Low Density Lipoprotein Abnormal" ;
+	 term:belonds_to_category cholestyramine:Blood_Cholesterol_and_Lipid_Disorders .
+
+term:Low_Density_Lipoprotein a cholestyramine:DrugIndication ;
+	 term:name "Low Density Lipoprotein" ;
+	 term:belonds_to_category cholestyramine:Blood_Cholesterol_and_Lipid_Disorders .
+
+term:Hyperlipidaemia a cholestyramine:DrugIndication ;
+	 term:name "Hyperlipidaemia" ;
+	 term:belonds_to_category cholestyramine:Blood_Cholesterol_and_Lipid_Disorders .
+
+term:Hypercholesterolaemia a cholestyramine:DrugIndication ;
+	 term:name "Hypercholesterolaemia" ;
+	 term:belonds_to_category cholestyramine:Blood_Cholesterol_and_Lipid_Disorders .
+

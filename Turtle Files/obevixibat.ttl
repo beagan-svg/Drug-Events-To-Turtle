@@ -1,0 +1,27 @@
+@prefix obevixibat: <http://neo4j.com/voc/obevixibat#> .
+@prefix subs: <http://neo4j.com/voc/substance#> .
+@prefix term: <http://neo4j.com/voc/term#> .
+
+obevixibat:Ileal_Bile_Acid_Transporter_Inhibitor_EPC a obevixibat:EPC ;
+	obevixibat:name "Ileal Bile Acid Transporter Inhibitor [EPC]" ;
+	subs:is_an_attribute_of subs:Obevixibat .
+
+subs:Obevixibat a obevixibat:Drug;
+	obevixibat:name "Obevixibat" ;
+	obevixibat:benefit obevixibat:Gastrointestinal_Disorders ;
+	obevixibat:benefit obevixibat:Blood_Cholesterol_and_Lipid_Disorders ;
+
+obevixibat:Gastrointestinal_Disorders a obevixibat:Category ;
+	obevixibat:name "Gastrointestinal Disorders" .
+
+obevixibat:Blood_Cholesterol_and_Lipid_Disorders a obevixibat:Category ;
+	obevixibat:name "Blood Cholesterol and Lipid Disorders" .
+
+term:Progressive_Familial_Intrahepatic_Cholestasis a obevixibat:DrugIndication ;
+	 term:name "Progressive Familial Intrahepatic Cholestasis" ;
+	 term:belonds_to_category obevixibat:Gastrointestinal_Disorders .
+
+term:Inborn_Error_Bilirubin_Metabolism a obevixibat:DrugIndication ;
+	 term:name "Inborn Error Bilirubin Metabolism" ;
+	 term:belonds_to_category obevixibat:Blood_Cholesterol_and_Lipid_Disorders .
+
