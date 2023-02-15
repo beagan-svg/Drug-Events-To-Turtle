@@ -4,7 +4,7 @@ Drug-Events-To-Turtle
 ![cover](Image/network.png)
 
 ## About Drug-Events-To-Turtle
-OpenFDA is a platform created by the United States Food and Drug Administration (FDA) to make publicly available data more accessible to the public. This includes data on drug adverse events, product recalls, and more. FAERS is a database of adverse event and medication error reports submitted to the FDA. The information in FAERS is used by the FDA to monitor drug safety, and detect and understand new safety concerns. The scripts in this repository will incorporate information from OpenFDA's FAERS API into a turtle file and import it into neo4j.
+OpenFDA is a platform created by the United States Food and Drug Administration (FDA) to make publicly available data more accessible to the public. This includes data on drug adverse events, product recalls, and more. FAERS is a database of adverse event and medication error reports submitted to the FDA. The information in FAERS is used by the FDA to monitor drug safety, and detect and understand new safety concerns. The scripts in this repository can incorporate information from OpenFDA's FAERS API into a turtle file and import it into neo4j.
 
 Table of Contents
 -----------------
