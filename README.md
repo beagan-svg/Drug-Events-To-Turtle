@@ -63,11 +63,11 @@ The script performs some pre-processing on the drugindication field, including c
 Finally, the script converts the "active_dict" dictionary into a pandas dataframe and saves it as a .csv file. The resulting dataframe has three columns, corresponding to the three items stored in each entry of the "active_dict" dictionary.
 
 4. src/Predict Category # Folders containing scripts to build the categorization model
-A. get_definition.py 
+- get_definition.py 
 This script retrieves the definition of a term from the BioPortal API using the requests library in Python.
 
 The get_longest_definition function takes in a list of dictionaries, each representing a search result from the API, and returns the definition with the longest length. The get_definition function takes in a term as an argument, makes a GET request to the BioPortal API with the given term as the query, and returns the longest definition returned from the API.
-B. predict_categorize.py
+- predict_categorize.py
 This script is a machine learning model that categorizes medical terms into different categories. The model uses a combination of term and definition vectors to predict the category of a medical term. The data used to train and test the model is loaded from a CSV file "medical_terms.csv", which contains the medical terms, definitions, and categories. The data is split into training and test sets using the train_test_split function from the scikit-learn library.
 
 The definitions are converted into vector representations using the spaCy library and the en_core_sci_sm model. The term and definition vectors are concatenated and used as input features for the categorization model. The model is implemented using a pipeline consisting of a TfidfVectorizer and a LinearSVC classifier. The model is trained on the training data and evaluated on the test data using the classification_report function from the scikit-learn library.
