@@ -9,7 +9,7 @@ OpenFDA is a platform created by the United States Food and Drug Administration 
 Table of Contents
 -----------------
 * [Usage](#usage)
-* [Describe Script](#Scipt_Information)
+* [Script Information](#Scipt-Information)
 * [Authors and history](#authors-and-history)
 * [Acknowledgments](#acknowledgments)
 * [References](#references)
@@ -51,7 +51,7 @@ conda activate data_curation
 python3 <File Name>
 ``` 
 
-# Scipt_Information
+# Scipt-Information
 1. src/download.py
 This script is a Python program that downloads data from the FDA's open API located at the URL 'https://api.fda.gov/download.json'. The program uses the requests library to send a GET request to the URL and retrieve the data. It then parses the data into a JSON object and extracts the links to the desired data files. The program then creates a directory named 'downloads' to store the downloaded files, if the directory doesn't already exist. The program then loops through the links and sends a GET request to each link to retrieve the data. If the request is successful, the data is saved to a file in the 'downloads' directory with the name extracted from the link. If the request is unsuccessful, an error message is printed.
 
