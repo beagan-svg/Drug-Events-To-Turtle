@@ -19,7 +19,7 @@ Table of Contents
 ```bash
 git clone 'https://github.com/beagan-svg/Drug-Events-To-Turtle'
 ```
-2. Install the necessary Python packages using these commands
+2. Install the necessary Python packages 
 ```bash
 import requests
 import os
