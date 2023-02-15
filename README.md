@@ -40,6 +40,11 @@ import spacy
 import numpy as np
 from scipy.sparse import hstack
 ```
+- Or alternatively download the faer.yml file in the env/ directory and run the following commands to create a conda environement and activate it.
+```
+conda env create -f faers.yml -n data_curation
+conda activate data_curation
+```
 
 3. Run the Script.
 ```bash
