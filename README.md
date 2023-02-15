@@ -1,8 +1,7 @@
 
 Drug-Events-To-Turtle
 =================================================
-![cover](Image/
-network.png)
+![cover](Image/network.png)
 
 ## About
 A python script to download Google Sheets Data as a text file (csv/excel). This script supports downoload of multiple sheets in one spreadsheet
