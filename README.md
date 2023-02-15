@@ -9,7 +9,7 @@ OpenFDA is a platform created by the United States Food and Drug Administration 
 Table of Contents
 -----------------
 * [Usage](#usage)
-* [Describe Script)(#usage)
+* [Describe Script](#usage)
 * [Authors and history](#authors-and-history)
 * [Acknowledgments](#acknowledgments)
 * [References](#references)
