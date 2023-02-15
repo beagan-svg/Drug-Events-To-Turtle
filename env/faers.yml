@@ -1,0 +1,15 @@
+name: data_curation
+channels:
+  - conda-forge
+dependencies:
+  - requests
+  - os
+  - json
+  - pandas
+  - pprint
+  - pickle5
+  - nltk
+  - scikit-learn
+  - spacy
+  - numpy
+  - scipy
